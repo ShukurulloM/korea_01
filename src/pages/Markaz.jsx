@@ -42,7 +42,7 @@ const Markaz = () => {
           </p>
         </Link>
         
-      </nav>
+      </nav> 
     </div>
   );
 };
