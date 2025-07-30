@@ -55,11 +55,11 @@ const Footer = () => {
                 <p>+998 (71) 278-82-65</p>
               </div>
               <div className='flex items-center gap-2'>
-                <FaPhone className='text-[#ec5714] opacity-0' /> {/* For alignment */}
+                <FaPhone className='text-[#ec5714] opacity-0' />
                 <p>+998 (71) 273-17-48</p>
               </div>
               <div className='flex items-center gap-2 mb-3'>
-                <FaPhone className='text-[#ec5714] opacity-0' /> {/* For alignment */}
+                <FaPhone className='text-[#ec5714] opacity-0' />
                 <p>+998 (99) 845-88-30</p>
               </div>
               

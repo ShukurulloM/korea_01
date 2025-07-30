@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-import Carousel from '../components/Carousel'; 
+import Carousel from '../components/Carousel';
 
 const MainLayout = () => {
   const location = useLocation();
   const koruzeps = location.pathname === '/koruzeps';
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time (you can replace this with actual data loading)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#ec5714]"></div>
+      </div>
+    );
+  }
 
   return (
     <div className='w-full min-h-screen flex flex-col focus:outline-none focus:border-[#ec5714]  ::selection ::-webkit-scrollbar-thumb  ::-webkit-scrollbar-track ::-webkit-scrollbar'>

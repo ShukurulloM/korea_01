@@ -16,7 +16,7 @@ const Koruzeps = () => {
 
       <div className="relative w-full -mt-10 sm:-mt-16 md:-mt-20 lg:-mt-24 z-10 px-4 sm:px-5">
         <div className='flex flex-col md:flex-row gap-3 sm:gap-4 md:gap-5 w-full max-w-6xl mx-auto text-white'>
-          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] rounded-lg shadow-lg'>
+          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] h-52  shadow-lg'>
             <p className='text-center mb-3 sm:mb-4 text-sm sm:text-base'>
               Koreys tilini markazimizda o‘rganib, yoki
               <br />
@@ -29,7 +29,7 @@ const Koruzeps = () => {
             <Link className='flex justify-center font-semibold text-sm sm:text-base hover:underline' to="/">Ko'proq ma'lumot oling</Link>
           </div>
 
-          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] rounded-lg shadow-lg'>
+          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] h-64 shadow-lg'>
             <p className='text-center mb-3 sm:mb-4 text-sm sm:text-base'>
               Koreys tilini o‘rganishda asosiysi o‘zingizning
               <br />
@@ -46,7 +46,7 @@ const Koruzeps = () => {
             <Link className='flex justify-center font-semibold text-sm sm:text-base hover:underline' to="/oqishgaqabul">Ko'proq ma'lumot oling</Link>
           </div>
 
-          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] rounded-lg shadow-lg'>
+          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] h-56 shadow-lg'>
             <p className='text-center mb-3 sm:mb-4 text-sm sm:text-base'>
               Koreyaga ketishning yana bir asosiy
               <br />
