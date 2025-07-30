@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav>a.active {
+    @apply text-gray-600;
+}
+
+.banner_area {
+    background-image: url(./img/bino.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.bg-cover {
+    background-size: cover;
+    color: white;
+}
+.salom{
+    background-image: url(https://koruzeps.uz/module/Site/View/Template/koruzeps/img/bg-sign.jpg);
+
+}
+
+.bg_overlay {
+    background-color: #4a383066;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ec5714;
+    border-radius: 10px;
+}
+
+  
+::selection {
+    background-color: #ec5714;
+    color: white; 
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ec5714; 
+    border-radius: 8px;
+  }
+  
