@@ -16,20 +16,20 @@ const Koruzeps = () => {
 
       <div className="relative w-full -mt-10 sm:-mt-16 md:-mt-20 lg:-mt-24 z-10 px-4 sm:px-5">
         <div className='flex flex-col md:flex-row gap-3 sm:gap-4 md:gap-5 w-full max-w-6xl mx-auto text-white'>
-          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] shadow-lg'>
+          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] h-52 shadow-lg'>
             <p className='text-center mb-3 sm:mb-4 text-sm sm:text-base'>
               Koreys tilini markazimizda o‘rganib, yoki
               <br />
-              koreys tilini bilgan fuqarolar Koreyaga salom
+              koreys tilini bilgan fuqarolar Koreyaga
               <br />
               ketishning 1-bosqich test (Computer Based
               <br />
               Testing CBT) muvofaqiyatli o‘tish.
             </p>
-            <Link className='flex justify-center font-semibold text-sm sm:text-base hover:underline' to="/">Ko'proq ma'lumot oling</Link>
+            <Link to="/markazdaoqishningafzalliklari" className='flex justify-center font-semibold text-sm sm:text-base hover:underline' to="/">Ko'proq ma'lumot oling</Link>
           </div>
 
-          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] shadow-lg'>
+          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] h-60 shadow-lg'>
             <p className='text-center mb-3 sm:mb-4 text-sm sm:text-base'>
               Koreys tilini o‘rganishda asosiysi o‘zingizning
               <br />
@@ -46,7 +46,7 @@ const Koruzeps = () => {
             <Link className='flex justify-center font-semibold text-sm sm:text-base hover:underline' to="/oqishgaqabul">Ko'proq ma'lumot oling</Link>
           </div>
 
-          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] shadow-lg'>
+          <div className='p-3 sm:p-4 md:p-5 bg-[#ec5714] h-56 shadow-lg'>
             <p className='text-center mb-3 sm:mb-4 text-sm sm:text-base'>
               Koreyaga ketishning yana bir asosiy
               <br />
@@ -104,8 +104,8 @@ const Koruzeps = () => {
           </div>
         </div>
         <form className='flex flex-col gap-3 sm:gap-4 w-full max-w-md'>
-          <input className='w-full border-2 border-gray-200 py-2 px-4 rounded' type="text" placeholder='Sizning ismingiz' />
-          <input className='w-full border-2 border-gray-200 py-2 px-4 rounded' type="tel" placeholder='Sizning telefoningiz' pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}" />
+          <input className='w-full border-2 border-gray-200 py-2 px-4 rounded' type="text" placeholder='Sizning ismingiz' required/>
+          <input className='w-full border-2 border-gray-200 py-2 px-4 rounded' type="tel" placeholder='Sizning telefoningiz' pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}" required/>
           <input className='w-full border-2 border-gray-200 py-2 px-4 rounded' type="email" placeholder='E-mail' pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required />
           <select className='w-full border-2 border-gray-200 py-2 px-4 rounded'>
             <option value="meni savolimni hamma kursin">Meni savolimni hamma kursin</option>

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa';
@@ -23,14 +24,12 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Close menu when clicking on a link
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
 
   return (
     <header className="w-full fixed top-0 left-0 z-50">
-      {/* Top contact bar */}
       <div className="w-full bg-[#ec5714] text-white text-xs py-2">
         <div className="max-w-7xl mx-auto flex justify-end px-4 md:px-20">
           <div className="flex gap-4">
@@ -40,19 +39,17 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Main header */}
       <div className={`transition-all duration-300 w-full ${scrolled ? 'bg-[#ec5714] opacity-85 shadow-md' : 'bg-transparent'}`}>
         <div className="w-full max-w-7xl mx-auto px-4 md:px-6 pt-3">
           <div className="flex justify-between items-center">
-            {/* Logo */}
             <Link to="/" className="text-white text-2xl font-bold uppercase">
               KORUZEPS
             </Link>
 
-            {/* Desktop Navigation */}
             <nav className="hidden md:flex flex-wrap items-center gap-6 font-semibold text-sm text-white">
+
               <div className="relative group">
-                <div className="flex items-center uppercase cursor-pointer">
+                <div className="flex items-center uppercase cursor-pointer gap-1">
                   <Link to="/markaz" className="flex items-center gap-1">
                     Markaz
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -60,7 +57,7 @@ const Header = () => {
                     </svg>
                   </Link>
                 </div>
-                <div className="absolute z-10 hidden group-hover:block bg-white shadow-md text-black mt-2 w-[180px]">
+                <div className="absolute z-10 invisible opacity-0 group-hover:visible group-hover:opacity-100 bg-white shadow-md text-black mt-2 w-[180px] transition-all duration-200">
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/markazhaqida" onClick={closeMenu}>Markaz haqida</Link>
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/markazimiztarixi" onClick={closeMenu}>Markazimiz tarixi</Link>
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/markazimizmaqsadi" onClick={closeMenu}>Markazimiz maqsadi</Link>
@@ -68,7 +65,7 @@ const Header = () => {
               </div>
 
               <div className="relative group">
-                <div className="flex items-center uppercase cursor-pointer">
+                <div className="flex items-center uppercase cursor-pointer gap-1">
                   <Link to="/koreystiliniorganish" className="flex items-center gap-1">
                     Koreys tilini o'rganish
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -76,7 +73,7 @@ const Header = () => {
                     </svg>
                   </Link>
                 </div>
-                <div className="absolute z-10 hidden group-hover:block bg-white shadow-md text-black mt-2 w-60">
+                <div className="absolute z-10 invisible opacity-0 group-hover:visible group-hover:opacity-100 bg-white shadow-md text-black mt-2 w-60 transition-all duration-200">
                   <Link className="block whitespace-nowrap px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/oqishhaqidaumumiymalumot" onClick={closeMenu}>O'qish haqida umumiy ma'lumot</Link>
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/oqitishuslublari" onClick={closeMenu}>O'qitish uslublari</Link>
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/oqitishjarayoni" onClick={closeMenu}>O'qitish jarayoni</Link>
@@ -84,7 +81,7 @@ const Header = () => {
               </div>
 
               <div className="relative group">
-                <div className="flex items-center uppercase cursor-pointer">
+                <div className="flex items-center uppercase cursor-pointer gap-1">
                   <Link to="/oqishgaqabul" className="flex items-center gap-1">
                     O'qishga qabul
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -92,7 +89,7 @@ const Header = () => {
                     </svg>
                   </Link>
                 </div>
-                <div className="absolute z-10 hidden group-hover:block bg-white shadow-md text-black mt-2 w-60">
+                <div className="absolute z-10 invisible opacity-0 group-hover:visible group-hover:opacity-100 bg-white shadow-md text-black mt-2 w-60 transition-all duration-200">
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/markazgaqabulbosqich" onClick={closeMenu}>Markazga qabul bosqichlari</Link>
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/markazdaoqishningafzalliklari" onClick={closeMenu}>Markazda o'qishning afzalliklari</Link>
                   <Link className="block px-4 py-2 hover:bg-[#ec5714] hover:text-white" to="/royhatdanotish" onClick={closeMenu}>Ro'yhatdan o'tish</Link>
@@ -105,7 +102,8 @@ const Header = () => {
               <Link className="uppercase hover:text-[#ec5714]" to="/aloqa" onClick={closeMenu}>Aloqalar</Link>
             </nav>
 
-            <button 
+
+            <button
               className="md:hidden text-white focus:outline-none"
               onClick={toggleMenu}
             >
@@ -152,7 +150,7 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-50 z-30"
           onClick={closeMenu}
         ></div>

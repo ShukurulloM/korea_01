@@ -19,6 +19,7 @@ import SavolJavob from './pages/SavolJavob';
 import Aloqa from './pages/Aloqa';
 import Koruzeps from './pages/Koruzeps';
 import Carousel from './components/Carousel';
+import Fotogalareya from './pages/Fotogalareya';
 
 const App = () => {
   const routes = createBrowserRouter(
@@ -42,6 +43,7 @@ const App = () => {
         <Route path='/savoljavob' element={<SavolJavob />} />
         <Route path='/aloqa' element={<Aloqa />} />
         <Route path='/carousel' element={<Carousel />} />
+        <Route path='/fotogalareya' element={<Fotogalareya />} />
       </Route>
     )
   )

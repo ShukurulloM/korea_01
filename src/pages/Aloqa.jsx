@@ -42,7 +42,7 @@ const Aloqa = () => {
             <input className='max-w-80 border-2 border-gray-200 py-3 px-6' type="email" placeholder='Email kiriting' pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required />
           </form>
           <div className=''>
-            <textarea className="w-[350px] h-[200px] p-4 border border-gray-300 rounded resize outline-none focus:ring-2 focus:ring-blue-400 text-gray-700 placeholder-gray-400" placeholder='Xabarni kiriting'></textarea>
+            <textarea className="w-[350px] h-[200px] p-4 border border-gray-300 rounded resize-none outline-none focus:ring-2 focus:ring-blue-400 text-gray-700 placeholder-gray-400" placeholder='Xabarni kiriting'></textarea>
             <div className='flex justify-end'>
               <button className='mr-5 mt-3 text-white font-medium py-2 px-8 bg-[#ec5714]'>Yuborish</button>
             </div>

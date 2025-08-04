@@ -80,5 +80,10 @@ export const products = [
         title: "Aloqalar",
         Link: "/aloqa",
         bgImage: Bino
+    },
+    {
+        title: "Fotogalareya",
+        Link: "/fotogalareya",
+        bgImage: Bino
     }
 ]

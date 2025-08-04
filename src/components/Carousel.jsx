@@ -58,7 +58,7 @@ const Carousel = () => {
         {images.map((img, index) => (
           <div
             key={index}
-            className="min-w-full h-full bg-cover bg-center relative"
+            className="min-w-full h-full bg-cover relative"
             style={{ backgroundImage: `url(${img})` }}
           >
             <div className="absolute inset-0 bg-black/30"></div>

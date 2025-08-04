@@ -11,7 +11,6 @@ const MainLayout = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading time (you can replace this with actual data loading)
     const timer = setTimeout(() => {
       setLoading(false);
     }, 1000);
@@ -28,7 +27,7 @@ const MainLayout = () => {
   }
 
   return (
-    <div className='w-full min-h-screen flex flex-col focus:outline-none focus:border-[#ec5714]  ::selection ::-webkit-scrollbar-thumb  ::-webkit-scrollbar-track ::-webkit-scrollbar'>
+    <div className='w-full min-h-screen flex flex-col'>
       <div className={`${koruzeps ? "" : "banner-area"} relative`}>
         {!koruzeps && <div className="absolute inset-0 bg-[#4a383066]" />}
 
@@ -38,7 +37,7 @@ const MainLayout = () => {
         </div>
       </div>
 
-      <main className='grow'>
+      <main className='flex-grow'>
         <Outlet />
       </main>
 

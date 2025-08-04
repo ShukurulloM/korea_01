@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import ImgBir from '../img/yangilikbir.jpg';
 import ImgIkki from '../img/yangilikikki.jpg';
 import ImgUch from '../img/yangilikuch.jpg';
@@ -31,9 +30,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>10/08/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Endi til o'rganish, ishga xalaqit bermaydi
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Ish faoliyatini olib borasizmi? Til o'rganishga qiziqasiz lekin bunga vaqt yo'qmi? 
               Bizni kurslar aynan sizlar uchun:
@@ -49,9 +48,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>10/08/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               E9 ishchi vizasi
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Koreya Respublikasiga qonuniy davlat tomonidan ketiladigan "E9" ishchi vizasi uchun bo'lib o'tadigan
             </p>
@@ -66,9 +65,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>09/23/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Special eps topik imtihonlariga atigi bir oy qoldi.
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Janubiy Koreya respublikasida vaqtinchalik mehnat faoliyatini muvafaqqiyatli amalga oshirib kelgan nomzodlar, 
               shoshiling, maxsus test imtihonlarga atigi bir oy qoldi. Tezlashtirilgan darslarimiz sizlar uchun!
@@ -85,9 +84,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>03/11/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               ORTIQCHA TO'LOVLARSIZ! KOREYADA QONUNIY E9 ISHCHI VIZASI ORQALI ISHLASHNI ISTAYSIZMI?
-            </Link>
+            </h3>
             <div className="aspect-w-16 aspect-h-9 mt-4">
               <iframe 
                 className='w-full h-64 md:h-80 rounded-lg'
@@ -109,9 +108,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>03/11/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               KOREYS SPECIAL EPS TOPIK IMTIHONLARI UCHUN DARSBOSHLANADI SHOSHILIB QOLING!
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Koreyada qonuniy E9 ishchi vizasini muvaffaqiyatli tugatib kelganlar uchun Special imtihoniga tayyorlov boshlandi. 
               Shoshiling!. Chunki bu yilgi Special EPS Topik imtihonlari tez orada bo'ladi.
@@ -127,9 +126,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>03/11/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               TOPIK KURSLAR!
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Koreyada qonuniy E9 ishchi vizasini muvaffaqiyatli tugatib kelganlar uchun Special imtihoniga tayyorlov boshlandi. 
               Shoshiling!. Chunki bu yilgi Special EPS Topik imtihonlari tez orada bo'ladi.
@@ -145,9 +144,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>01/27/2020</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               KOREYADA QONUNIY E9 ISHCHI VIZASI ORQALI ISHLASHNI ISTAYSIZMI?
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               KOREYADA QONUNIY E9 ISHCHI VIZASI ORQALI ISHLASHNI ISTAYSIZMI? UNDA BIZ BILAN BIRGALIKDA IMTIHONLARGA TAYYORLANING!
             </p>
@@ -162,9 +161,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>07/26/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Koreyada ishga ketishda bo'lib o'tadigan imtihonlarda sizga yordam beruvchi Koreya mutaxassislari tomonidan yaratilgan maxsus mobil ilova uchun shartnoma!
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Endilikda siz bizning mobil ilovamizni o'zingizga qulay bo'lgan bank orqali to'lovni amalga oshirib ishlatishingiz mumkin!
             </p>
@@ -179,9 +178,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>04/25/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Endilikda sizham mobil ilovamizni yuklab olishingiz mumkin!
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Koreys mutaxassislari tomonidan maxsus ishlab chiqilgan mobil ilovalarimizni endilikda istagan fuqaro sotib olish imkoniyatiga ega!
             </p>
@@ -198,9 +197,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>04/20/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Markazimizga Koreyadan nufuzli mexmonlar tashrif buyurishdi!
-            </Link>
+            </h3>
           </div>
         </div>
 
@@ -212,9 +211,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>04/05/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               E'lon!
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Markazimizda 2 oylik kurs tashkil etildi
             </p>
@@ -229,9 +228,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>04/05/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Yangi o'quv semestri boshlandi
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Qo'shimcha manbalar asosida o'quv dasturini mukamallashtirib, 1-Apreldan boshlab markazimizda yangi o'quv semestri boshlandi.
             </p>
@@ -246,9 +245,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>03/27/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Viloyatlar bo'ylab uchrashuv va seminarlar tashkil etildi
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Markazimiz hodimlari, Tashqi mehnat migratsiyasi agentligi va Yoshlar Ittifoqi tashkiloti bilan birgalikda viloyatlar bo'ylab uchrashuv va seminarlar tashkil etildi
             </p>
@@ -263,9 +262,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>03/07/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               1-semestr bitiruv kuni
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               1- semestrni tugatgan o'quvchilarimizga Markaz tomonidan maxsus sertifikatlar topshirildi. Markazimiz o'quvchilariga Koreyaga ishga ketishda bo'lib o'tadigan imtihonlarda omad tilab qolamiz!
             </p>
@@ -280,9 +279,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>02/01/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Markazimiz faollar tadbiri
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Markazimiz o'quvchilari o'rtasida joriy yil ning 1 fevral kuni markazimiz faollari nomli tadbir bo'lib o'tdi. Unda markazimizda tahsil olayotgan barcha o'quvchilarimiz qatnashishdi.
             </p>
@@ -297,9 +296,9 @@ const Yangiliklar = () => {
           />
           <div className='p-4 md:p-6 flex-1'>
             <span className='text-gray-500 text-sm'>12/11/2019</span>
-            <Link className='text-lg md:text-xl font-medium mb-3 block hover:text-[#ec5714] transition-colors' to="/">
+            <h3 className='text-lg md:text-xl font-medium mb-3 block transition-colors' to="/">
               Markazimizning ochilish marosimi
-            </Link>
+            </h3>
             <p className='text-gray-600'>
               Markazimizningg rasmiy ochilish marosimi avvalida mehmonlar – Koreya Respublikasidagi O'zbekiston elchixonasi faxriy konsuli, Koreya Respublikasidagi O'zbekiston Savdo vakolatxonasi prezidenti...
             </p>
