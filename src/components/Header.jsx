@@ -34,7 +34,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto flex justify-end px-4 md:px-20">
           <div className="flex gap-4">
             <a href="tel:+998500905577">+998 (50) 090-55-77</a>
-            <a href="mailto:info@koruzeps.uz">info@koruzeps.uz</a>
+            <a href="https://www.google.com/maps/place/Tashkent,+Uzbekistan/@41.282597,69.279367,15z/data=!4m6!3m5!1s0x38ae8b0cc379e9c3:0xa5a9323b4aa5cb98!8m2!3d41.2994958!4d69.2400734!16zL20vMGZzbXk?hl=en&entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D">info@koruzeps.uz</a>
           </div>
         </div>
       </div>

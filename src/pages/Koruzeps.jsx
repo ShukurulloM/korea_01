@@ -6,8 +6,10 @@ import Humo from '../img/humo.png';
 import Bank from '../img/Bank.png';
 import Hunan from '../img/Hunan.gif';
 import Evergreen from '../img/evergreen.jpg';
+import useTitle from '../components/useTitle';
 
 const Koruzeps = () => {
+  useTitle("Asosiy")
   return (
     <div className=''>
       <div className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh]">

@@ -1,7 +1,9 @@
 import React from 'react';
 import UzbKorea from '../img/Uzbek_Korea.jpg';
+import useTitle from '../components/useTitle';
 
 const EpsTopik = () => {
+  useTitle("Eps-Topik")
   return (
     <div className='bg-slate-300/80'>
     <div className='w-full max-w-6xl mx-auto px-5 py-20'>

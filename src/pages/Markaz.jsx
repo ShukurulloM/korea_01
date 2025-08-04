@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 import MarkazMaq from '../img/markazbir.jpg';
 import MarkazTar from '../img/markazikki.jpg';
 import MarkazHaq from '../img/markazuch.jpg';
+import useTitle from '../components/useTitle';
 
 const Markaz = () => {
+  useTitle("Markaz")
+
   return (
     <div className='w-full max-w-6xl mx-auto px-4 py-20'>
       <nav className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>

@@ -9,10 +9,13 @@ import FotoBesh from '../img/foto5.jpg';
 import FotoOlti from '../img/foto6.jpg';
 import FotoYetti from '../img/foto7.jpg';
 import FotoSakkiz from '../img/foto8.jpg';
+import useTitle from '../components/useTitle';
 
 const images = [FotoBir, FotoIkki, FotoUch, FotoTort, FotoBesh, FotoOlti, FotoYetti, FotoSakkiz];
 
 const Fotogalareya = () => {
+  useTitle("Fotogalareya")
+
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 

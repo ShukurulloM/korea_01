@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaHome, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import useTitle from '../components/useTitle';
 
 const Aloqa = () => {
+  useTitle("Aloqalar")
   return (
     <div className='bg-slate-100'>
       <div className="w-full max-w-6xl mx-auto px-5 py-28">

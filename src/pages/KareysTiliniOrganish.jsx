@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 import KoreaB from '../img/Noutbook.jpg';
 import KoreaU from '../img/Ruchka.jpg';
 import KoreaI from '../img/Blacknot.jpeg';
+import useTitle from '../components/useTitle';
 
 const KareysTiliniOrganish = () => {
+  useTitle("Koreys-Tilini-O'rganish")
+
   return (
     <div className='w-full max-w-6xl mx-auto px-5'>
       <nav className='flex flex-col md:flex-row gap-6 py-20 uppercase'>
