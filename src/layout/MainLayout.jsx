@@ -34,7 +34,7 @@ const MainLayout = () => {
         <div className="relative z-20">
           <Header />
           {koruzeps ? <Carousel /> : <Hero />}
-        </div>
+        </div>xx
       </div>
 
       <main className='flex-grow'>
