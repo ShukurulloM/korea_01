@@ -14,8 +14,10 @@ import ImgOngIkki from '../img/yangilikonikki.jpg';
 import ImgOnUch from '../img/yangilikonuch.jpg';
 import ImgYosh from '../img/yoshlar.jpg';
 import ImgOnTort from '../img/yangilikontort.jpg';
+import useTitle from '../components/useTitle';
 
 const Yangiliklar = () => {
+  useTitle("Yangiliklar")
   return (
     <div className='w-full max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20'>
       <h1 className='text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12'>Yangiliklar</h1>

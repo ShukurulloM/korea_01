@@ -6,10 +6,12 @@ import DarsTort from '../img/darstort.jpg';
 import DarsBesh from '../img/rdarsbesh.jpg';
 import DarsOlti from '../img/darsolti.jpg';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import useTitle from '../components/useTitle';
 
 const images = [DarsBir, DarsIkki, DarsUch, DarsTort, DarsBesh, DarsOlti];
 
 const OqitishJarayoni = () => {
+  useTitle("O'qitish-jarayoni")
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 

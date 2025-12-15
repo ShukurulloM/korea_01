@@ -2,8 +2,10 @@ import React from 'react';
 import EpsTopik from '../img/Epstopik.jpg';
 import Eps from '../img/Eps.jpg';
 import KUch from '../img/k3.jpg';
+import useTitle from '../components/useTitle';
 
 const OqitishUslublari = () => {
+  useTitle("O'qitish-uslubi")
   return (
     <div className='w-full max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20'>
       <div className='mb-8 md:mb-12'>

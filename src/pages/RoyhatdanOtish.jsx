@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import useTitle from '../components/useTitle';
 
 const RoyhatdanOtish = () => {
+  useTitle("Ro'yhatdan-o'tish")
+
   const [formData, setFormData] = useState({
     fullName: '',
     birthDate: { year: '', month: '', day: '' },

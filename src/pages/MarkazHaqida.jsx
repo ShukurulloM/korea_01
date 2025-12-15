@@ -1,6 +1,8 @@
 import React from 'react';
+import useTitle from '../components/useTitle';
 
 const MarkazHaqida = () => {
+  useTitle("Markaz-Haqida")
   return (
     <div className="w-full max-w-6xl mx-auto px-5 py-20">
       <h3 className="text-2xl sm:text-3xl font-bold leading-relaxed mb-6 text-gray-900">

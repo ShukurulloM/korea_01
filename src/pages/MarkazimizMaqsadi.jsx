@@ -1,6 +1,8 @@
 import React from 'react';
+import useTitle from '../components/useTitle';
 
 const MarkazimizMaqsadi = () => {
+  useTitle("Markaz-maqsadi")
   return (
     <div className="w-full max-w-6xl mx-auto px-5 py-16 md:py-20">
       <div className="flex flex-col">

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useTitle from '../components/useTitle';
 
 const questions = [
   {
@@ -20,6 +21,8 @@ const questions = [
 ];
 
 const SavolJavob = () => {
+  useTitle("Savol-javob");
+  
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAnswer = (index) => {

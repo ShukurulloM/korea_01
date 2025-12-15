@@ -1,6 +1,9 @@
 import React from 'react';
+import useTitle from '../components/useTitle';
 
 const OqishHaqidaUmumiyMalumot = () => {
+  useTitle("O'qish-haqida-ma'lumot")
+
   return (
     <div className='w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12'>
       <div className='mb-8 md:mb-12 text-center'>
