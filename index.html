@@ -5,6 +5,11 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+l" href="./src/img/flag.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Yandex.RTB -->
+  <script>window.yaContextCb = window.yaContextCb || []</script>
+  <script src="https://yandex.ru/ads/system/context.js" async></script>
+
   <title>Koreya — Oʻzbekiston | Hamkorlik va Reklama sayt</title>
 
   <meta name="google-site-verification" content="3Ks8wUdgmE6PmBeBs2PsZKPza2LatDOM21itcoboaN8" />
@@ -30,7 +35,22 @@
 
 <body>
   <div id="root"></div>
+  <aside>
+    <div id="yandex-ad-container"></div>
+  </aside>
+
   <script type="module" src="/src/main.jsx"></script>
+
+  <!-- Yandex.RTB R-A-18330584-1 -->
+    <script>
+      window.yaContextCb.push(() => {
+        Ya.Context.AdvManager.render({
+          "blockId": "R-A-18330584-1",
+          "type": "floorAd",
+          "platform": "touch"
+        })
+      })
+    </script>
 </body>
 
 </html>
